@@ -1,0 +1,43 @@
+.boxstory {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.cardstory {
+    width: 27rem;
+    display: inline-block;
+    margin: 1rem;
+    padding: 2rem;
+    border: 0.1px solid rgb(255, 255, 255);
+    border-radius: 2rem;
+}
+
+.storyindex {
+    margin: 0 auto;
+    max-width: 118rem;
+}
+
+.card-top-story {
+    width: 22.5rem;
+    height: 19.5rem;
+}
+
+.titlestory {
+    font-weight: bold;
+    color: wheat;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-content {
+    transition: transform 0.4s ease, background 2s ease-in-out;
+}
+
+.card-content:hover {
+    transform: scale(1.05);
+    background: -webkit-linear-gradient(bottom, #3931af, #00c6ff);
+}
